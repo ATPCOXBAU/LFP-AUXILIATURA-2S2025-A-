@@ -1,0 +1,52 @@
+        TORNEO {
+                nombre: "Copa Mundial Universitaria",
+                equipos: 8,
+                sede: "Guatemala"
+        }
+
+        EQUIPOS {
+                equipo: "Leones FC" [
+                        jugador: "Carlos Ruiz" [posicion: "PORTERO", numero: 1, edad: 22],
+                        jugador: "Luis García" [posicion: "DEFENSA", numero: 4, edad: 21]
+                ]
+        }
+
+        ELIMINACION {
+                cuartos: [
+                        partido: "Leones FC" vs "Águilas United" [
+                                resultado: "3-1",
+                                goleadores: [
+                                        goleador: "Pedro Martínez" [minuto: 15],
+                                        goleador: "Juan Pérez" [minuto: 30]
+                                ]
+                        ]
+                ],
+                cuartos: [
+                        partido: "2222" vs " United" [
+                                resultado: "36-2",
+                                goleadores: [
+                                        goleador: "AAAA" [minuto: 15],
+                                        goleador: "xXX Pérez" [minuto: 30]
+                                ]
+                        ]
+                ],
+                 final: [
+                        partido: "2222" vs " United" [
+                                resultado: "36-2",
+                                goleadores: [
+                                        goleador: "AAAA" [minuto: 15],
+                                        goleador: "xXX Pérez" [minuto: 30]
+                                ]
+                        ]
+                ],
+                octavos: [
+                        partido: "Leones 2" vs "Águilas 2" [
+                                resultado: "4-2",
+                                goleadores: [
+                                        goleador: "Pedro " [minuto: 20],
+                                        goleador: "Juan " [minuto: 28]
+                                ]
+                        ]
+                ]
+        }
+#
