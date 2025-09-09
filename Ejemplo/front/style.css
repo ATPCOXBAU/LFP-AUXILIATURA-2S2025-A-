@@ -1,0 +1,21 @@
+   body {
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: #495057;
+            color: white;
+            padding: 2rem 0;
+        }
+        .content-area {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .results-area {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            min-height: 300px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
